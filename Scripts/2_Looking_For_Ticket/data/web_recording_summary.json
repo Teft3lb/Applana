@@ -1,0 +1,312 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 9,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Р В Р Р‹Р В РЎвЂњР В Р’В Р вЂ™Р’ВµР В Р’В Р В РІР‚В¦-02-2021",
+    "RecordingDuration": 121078,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1630596774,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 18928,
+    "TotalBytesSent": 10299,
+    "TotalRequests": 15,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "localhost.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "127.0.0.1",
+          "IncludeInScript": true,
+          "Name": "localhost.com",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 1488,
+              "URL": "http://localhost.com:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 122,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 2699,
+              "URL": "http://localhost.com:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 99,
+              "HttpStatus": 200,
+              "Size": 2447,
+              "URL": "http://localhost.com:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 4246,
+              "URL": "http://localhost.com:1080/cgi-bin/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "http://localhost.com:1080/cgi-bin/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 59,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 918,
+              "URL": "http://localhost.com:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://localhost.com:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 36,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://localhost.com:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 1488,
+              "URL": "http://localhost.com:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 24,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 22,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost.com:1080/WebTours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 16,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost.com:1080/WebTours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.209.195",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 878,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=11:274881103&cup2hreq=88cf1db7a0ec1cb284a083fbbdcdb882ff9a74deae3a5e740618967d86f82f51"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.210.138",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 31,
+              "EventId": 110,
+              "HttpStatus": 200,
+              "Size": 2285,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTIuMC40NTE1LjE1ORopCAUQARobCg0IBRAGGAEiAzAwMTABEIuaDBoCGAMi4kj4IgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDFtAkaAhgD6ikpbyIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQx4YJGgIYA8qwdaEiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEJn1CRoCGAPjVx6SIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYA1m8dH0iBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEN4iGgIYAym2SVUiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgDcqfsqSIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQzHAaAhgDsPndiiIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYA056200iBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEPoMGgIYAyxBvXoiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEPufARoCGAOf52w5IgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCB_wUaAhgDYlI9ZSIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQzgwaAhgDi9mYLyIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.209.163",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 34,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=92"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.71",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.71",
+          "IncludeInScript": false,
+          "Name": "192.168.1.71",
+          "Port": 7678,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 15,
+              "EventId": 44,
+              "HttpStatus": 200,
+              "Size": 1422,
+              "URL": "http://192.168.1.71:7678/nservice/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 6
+}

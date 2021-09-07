@@ -1,0 +1,107 @@
+[API Trapper      (2504:2b58)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 9c4:10a4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3118:1404)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3118: 7a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3118: 7a0)] Load Network Traffic Analyzers:
+[Network Analyzer (3118: 7a0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3118: 7a0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3118: 7a0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3118: 7a0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3118: 7a0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3118: 7a0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3118: 7a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3118:2ae8)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 216.58.209.163:443   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (3118:2ae8)] "GET /WebTours/"   
+[Network Analyzer (3118:2ae8)]   (Sid:  1) Client -> Server @ : 567 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  1) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (3118:33b4)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 216.58.209.173:443   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (3118:2ae8)] "GET /WebTours/header.html"   
+[Network Analyzer (3118:2ae8)]   (Sid:  1) Client -> Server @ : 624 bytes (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Client -> Server @ : 535 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  1) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (3118: 348)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3118: 348)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3118:33b4)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Client -> Server @ : 576 bytes (Service=HTTP)
+[Web Request      (3118:2ae8)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (3118:2ae8)]   (Sid:  4) Client -> Server @ : 728 bytes (SSL)(Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=92"   
+[Network Analyzer (3118:2ae8)]   (Sid:  3) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  4) Server -> Client : 1477 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  4) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Server -> Client : 1748 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  4) Server -> Client : 44 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  3) Server -> Client : 349 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /favicon.ico"   
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Client -> Server @ : 442 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[API Trapper      ( 1ac:1d00)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3118:2ae8)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (3118:2ae8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:7678   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Web Request      (3118:2ae8)] "GET /nservice/"   
+[Network Analyzer (3118:2ae8)]   (Sid:  5) Client -> Server @ : 237 bytes (Service=HTTP)
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (3118:2ae8)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Client -> Server @ : 811 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  5) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Client -> Server @ : 681 bytes (Service=HTTP)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Client -> Server @ : 676 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Client -> Server @ : 698 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 813 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Client -> Server @ : 703 bytes (Service=HTTP)
+[Web Request      (3118:2ae8)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Client -> Server @ : 686 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 3082 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Net An. Warning  (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] StartTransactionEvent check [Network Analyzer (3118:2ae8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (3118:2ae8)]   (Sid:  6) Connection Terminated (by Server)
+[Net An. Warning  (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Network Analyzer (3118: 7a0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (3118:2ae8)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (3118:2ae8)]   (Sid:  8) Client -> Server @ : 1028 bytes (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  8) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (3118:2ae8)]   (Sid:  8) Server -> Client : 1963 bytes  (Service=HTTP)
+[Network Analyzer (3118: 7a0)] Address lookup for DESKTOP-H72RVRP = 192.168.1.64
+[Net An. Warning  (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] EndTransactionEvent check [Network Analyzer (3118:2ae8)]   (Sid:  8) Connection Terminated (by Server)
+[Net An. Warning  (3118: 7a0)] Request Connection: Remote Server @ 192.168.1.71:8009 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)

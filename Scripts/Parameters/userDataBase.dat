@@ -1,0 +1,11 @@
+username,password,depart,arrive,firstname,lastname,address1,address2,creditcard,expdate,seatType,seatPref
+jojo,bean,Denver,London,jojof,jojol,jojoa,jojob,51348675,01/22,First,None
+momo2,mumu,London,Paris,momof,momol,momoa,momo2,35684216,21/22,Business,Window
+kuku,koko,Los Angeles,Denver,kokof,kokol,kokoa,koko2,34682167,04/22,Coach,Aisle
+abir,abir,Frankfurt,Sydney,abirf,abirl,abira,abir2,52136495,15/22,First,Window
+riba,ribu,Denver,Zurich,ribaf,ribal,ribaa,riba2,97837816,19/23,Business,None
+James,123,Sydney,Portland,jamesf,james1,james2,james3,64913572,10/21,Coach,Aisle
+steven,333,Zurich,San Francisco,stevenf,stevenl,steven1,steven2,24365128,08/22,First,Window
+joan,222,Portland,Paris,joaff,joafl,joaf1,joaf2,35416821,13/21,Business,None
+jean,111,Paris,Sydney,jeanf,jeanl,jean1,jean2,31325864,18/22,Coach,Window
+donna,222,San Francisco,London,donnaf,donnaf,donna1,donna2,52156548,16/22,First,Aisle

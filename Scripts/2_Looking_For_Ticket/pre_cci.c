@@ -1,4 +1,4 @@
-# 1 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c"
+# 1 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c"
 # 1 "D:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 1 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 
 # 1 "D:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 2 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 
 # 1 "globals.h" 1
 
@@ -2646,7 +2646,19 @@ FillingForm()
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
 
-	lr_think_time(22);
+	web_reg_find("Text/IC=First time registering",
+		"LAST");
+
+
+	web_url("login.pl", 
+		"URL=http://localhost.com:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost.com:1080/WebTours/home.html", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"LAST");
 
 	web_submit_data("login.pl_2", 
 		"Action=http://localhost.com:1080/cgi-bin/login.pl", 
@@ -2657,13 +2669,13 @@ FillingForm()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
-		"Name=username", "Value={username}", "ENDITEM", 
-		"Name=password", "Value={password}", "ENDITEM", 
-		"Name=passwordConfirm", "Value={password}", "ENDITEM", 
-		"Name=firstName", "Value={firstname}", "ENDITEM", 
-		"Name=lastName", "Value={lastname}", "ENDITEM", 
-		"Name=address1", "Value={address1}", "ENDITEM", 
-		"Name=address2", "Value={address2}", "ENDITEM", 
+		"Name=username", "Value={username}{rand}", "ENDITEM", 
+		"Name=password", "Value={rand}", "ENDITEM", 
+		"Name=passwordConfirm", "Value={rand}", "ENDITEM", 
+		"Name=firstName", "Value={firstname}{rand}", "ENDITEM", 
+		"Name=lastName", "Value={lastname}{rand}", "ENDITEM", 
+		"Name=address1", "Value={address1}{rand}", "ENDITEM", 
+		"Name=address2", "Value={address2}{rand}", "ENDITEM", 
 		"Name=register.x", "Value=59", "ENDITEM", 
 		"Name=register.y", "Value=7", "ENDITEM", 
 		"LAST");
@@ -2715,11 +2727,13 @@ ContinueButton()
 
 Login()
 {
-lr_start_transaction("login");
+	lr_start_transaction("login");
 
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
-
+	
+	web_reg_find("Text/IC=User password was correct",
+		"LAST");
 
 	web_submit_data("login.pl",
 		"Action=http://localhost.com:1080/cgi-bin/login.pl",
@@ -2758,6 +2772,12 @@ Itinerary()
 	web_reg_find("Text/IC=Flights List",
 		"LAST");
 
+	web_reg_save_param("flightID",
+		"LB/IC= name=\"flightID\" value=\"",
+		"RB/IC=\"",
+		"LAST");
+
+
 	web_url("Itinerary Button", 
 		"URL=http://localhost.com:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -2782,14 +2802,17 @@ Itinerary()
  
 
 
-CheckBoxChecked()
+ChooseTicketForDelete()
 {
 	
-	lr_start_transaction("checkbox_checked");
+	lr_start_transaction("ChooseTicketForDelete");
 
+	web_reg_find("Text/IC=Flights List",
+		"LAST");
 
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
+
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t37.inf", 
@@ -2799,8 +2822,11 @@ CheckBoxChecked()
 		"Name=removeFlights.y", "Value=9","ENDITEM",
 		"LAST");
 
+	web_reg_find("Fail=Found",
+		"Text={flightID}",
+		"LAST");
 
-	lr_end_transaction("checkbox_checked",2);
+	lr_end_transaction("ChooseTicketForDelete",2);
 }
 
 
@@ -2873,12 +2899,12 @@ FindFlight()
 		"ITEMDATA",
 		"Name=advanceDiscount", "Value=0", "ENDITEM",
 		"Name=depart", "Value={depart}", "ENDITEM",
-		"Name=departDate", "Value={Date}", "ENDITEM",
+		"Name=departDate", "Value={Date1}", "ENDITEM",
 		"Name=arrive", "Value={arrive}", "ENDITEM",
 		"Name=returnDate", "Value={Date2}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value=None", "ENDITEM",
-		"Name=seatType", "Value=Coach", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=findFlights.x", "Value=67", "ENDITEM",
 		"Name=findFlights.y", "Value=8", "ENDITEM",
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
@@ -2916,10 +2942,11 @@ FindFlight_rnd()
  
 	
 	web_reg_save_param("outboundFlight",
-                   "LB/IC=outboundFlight\" value=\"",
-                   "RB/IC=\"",
-                   "Ord=ALL",
-                   "LAST");
+	                   "LB/IC=outboundFlight\" value=\"",
+	                   "RB/IC=\"",
+	                   "Ord=ALL",
+	                   "LAST");
+
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost.com:1080/cgi-bin/reservations.pl", 
@@ -2945,10 +2972,9 @@ FindFlight_rnd()
 		"Name=.cgifields", "Value=seatPref", "ENDITEM", 
 		"LAST");
 	                   
-	lr_paramarr_random("outboundFlight");
-	
-	lr_save_string(lr_paramarr_random("outboundFlight"),"outboundFlight_rnd");
 
+	lr_save_string(lr_paramarr_random("outboundFlight"),"outboundFlight_rnd");
+	
 	lr_end_transaction("find_flight",2);
 }
 
@@ -3108,64 +3134,26 @@ SignOff()
 	lr_end_transaction("sign_off",2);
 }
 
-
-Trying()
-{
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"LAST");
-
-	web_submit_data("reservations.pl",
-		"Action=http://localhost.com:1080/cgi-bin/reservations.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost.com:1080/cgi-bin/reservations.pl?page=welcome",
-		"Snapshot=t10.inf",
-		"Mode=HTML",
-		"ITEMDATA",
-		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=depart", "Value={depart}", "ENDITEM",
-		"Name=departDate", "Value={Date}", "ENDITEM",
-		"Name=arrive", "Value={arrive}", "ENDITEM",
-		"Name=returnDate", "Value={Date2}", "ENDITEM",
-		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value=None", "ENDITEM",
-		"Name=seatType", "Value=Coach", "ENDITEM",
-		"Name=findFlights.x", "Value=67", "ENDITEM",
-		"Name=findFlights.y", "Value=8", "ENDITEM",
-		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
-		"Name=.cgifields", "Value=seatType", "ENDITEM",
-		"Name=.cgifields", "Value=seatPref", "ENDITEM",
-		"LAST");
-
-}
 # 9 "globals.h" 2
 
  
  
 
 
-# 3 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 3 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 4 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 	
-lr_start_transaction("looking_for_ticket");
+lr_start_transaction("UC_02_looking_for_ticket");
 
 	MainPage();
 
@@ -3176,29 +3164,29 @@ lr_start_transaction("looking_for_ticket");
 		lr_think_time(5);
 
 	Flights();
-	
-		lr_think_time(5);
+
+		lr_think_time(5);	
 
 	FindFlight();
-
+	
 		lr_think_time(5);
-
+	
 	ChooseTicket();
 	
 		lr_think_time(5);
 	
 	SignOff();
 	
-lr_end_transaction("looking_for_ticket", 2);
+lr_end_transaction("UC_02_looking_for_ticket", 2);
 
 	return 0;
 }
-# 5 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 5 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "d:\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
+# 6 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\2_looking_for_ticket\\\\combined_2_Looking_For_Ticket.c" 2
 

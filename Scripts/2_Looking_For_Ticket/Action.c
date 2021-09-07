@@ -12,13 +12,13 @@ lr_start_transaction("UC_02_looking_for_ticket");
 		lr_think_time(5);
 
 	Flights();
-	
-		lr_think_time(5);
+
+		lr_think_time(5);	
 
 	FindFlight();
-
+	
 		lr_think_time(5);
-
+	
 	ChooseTicket();
 	
 		lr_think_time(5);

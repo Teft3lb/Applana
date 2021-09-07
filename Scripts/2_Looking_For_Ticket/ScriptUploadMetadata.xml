@@ -17,6 +17,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="128711100440.idx" Filter="1" />
     <FileEntry Name="172118267440.idx" Filter="1" />
+    <FileEntry Name="198283462440.idx" Filter="1" />
     <FileEntry Name="229187032440.idx" Filter="1" />
     <FileEntry Name="247156943440.idx" Filter="1" />
     <FileEntry Name="2_Looking_For_Ticket.c.pickle" Filter="1" />
@@ -31,6 +32,10 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv4xV.525.log" Filter="1" />
+    <FileEntry Name="mdrvuPY.399.log" Filter="1" />
+    <FileEntry Name="mdrvwTH.201.log" Filter="1" />
+    <FileEntry Name="mdrvZiz.255.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="NewParam_1.dat" Filter="1" />

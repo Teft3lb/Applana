@@ -1,14 +1,13 @@
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:44: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:87: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:118: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:156: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:187: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:217: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:247: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:303: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:366: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:402: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:437: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:495: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:522: warning: missing return value
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:561: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:44: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:99: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:130: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:170: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:207: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:243: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:273: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:329: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:392: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:428: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:463: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:521: warning: missing return value
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c: ..\\Parameters\\GlobalActions.h:548: warning: missing return value

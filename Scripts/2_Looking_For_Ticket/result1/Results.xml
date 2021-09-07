@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="2020" os="" host="DESKTOP-H72RVRP"><DocLocation><![CDATA[D:\Applana\Scripts\2_Looking_For_Ticket]]></DocLocation></General>
+<General productName="Vugen" productVer="2020" os="" host="DESKTOP-H72RVRP"><DocLocation><![CDATA[D:\Новая папка\Applana\Scripts\2_Looking_For_Ticket]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[2_Looking_For_Ticket]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="06.09.2021 - 19:02:25" eTime="06.09.2021 - 19:02:25" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="08.09.2021 - 1:18:57" eTime="08.09.2021 - 1:18:57" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>userSession</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Web Tours</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -173,8 +173,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Url: welcome.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="12" status="Passed" >
 <Disp><![CDATA[Url: welcome.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -185,8 +185,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>AUTO</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="13" >
 <Disp><![CDATA[Service: Set Sockets Option]]></Disp>
 </NodeArgs>
@@ -194,127 +194,136 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: http://localhost.com:1080</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
 <NodeArgs eType="General" icon="9" nRep="14" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=User password was correct</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[08.09.2021 - 1:18:57]]></Time>
+<TimeTick>1631053137</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="15" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="10" nRep="15" status="Passed" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="16" status="Passed" >
 <Disp><![CDATA[Submit Data: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Flight Selections</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="16" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="17" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T13">
+<Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Url: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="17" status="Passed" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="18" status="Passed" >
 <Disp><![CDATA[Url: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T14">
+<Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Origin: http://localhost.com:1080</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="18" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="19" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T15">
+<Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>outboundFlight</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="19" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="20" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T16">
+<Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=<B>Denver</B> to <B>London</B></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="20" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=<B>Sydney</B> to <B>London</B></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="21" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T17">
+<Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="10" nRep="21" status="Passed" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="22" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T18">
+<Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Flight Reservation</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="22" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="23" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T19">
+<Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="10" nRep="23" status="Passed" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="24" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T20">
+<Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Web Tours</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:25]]></Time>
-<TimeTick>1630944145</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="24" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="25" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T21">
+<Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[06.09.2021 - 19:02:26]]></Time>
-<TimeTick>1630944146</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="25" status="Passed" >
+<Time><![CDATA[08.09.2021 - 1:18:58]]></Time>
+<TimeTick>1631053138</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="26" status="Passed" >
 <Disp><![CDATA[Url: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t8.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="06.09.2021 - 19:02:25" eTime="06.09.2021 - 19:02:26" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="08.09.2021 - 1:18:57" eTime="08.09.2021 - 1:18:58" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -323,14 +332,14 @@
 <Disp><![CDATA[2_Looking_For_Ticket Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T22">
+<Action rID="T23">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="06.09.2021 - 19:02:26" eTime="06.09.2021 - 19:02:26" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="28" >
+<Summary sTime="08.09.2021 - 1:18:58" eTime="08.09.2021 - 1:18:58" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="29" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="06.09.2021 - 19:02:24" eTime="06.09.2021 - 19:02:26" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="08.09.2021 - 1:18:56" eTime="08.09.2021 - 1:18:58" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 2_Looking_For_Ticket Summary]]></Disp>
 </NodeArgs>

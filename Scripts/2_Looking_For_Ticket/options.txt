@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Applana\Scripts\2_Looking_For_Ticket
+-ID:\Новая папка\Applana\Scripts\2_Looking_For_Ticket
 -ID:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\applana\scripts\2_looking_for_ticket\\logfile.log
-d:\applana\scripts\2_looking_for_ticket\\combined_2_Looking_For_Ticket.c
-d:\applana\scripts\2_looking_for_ticket\\pre_cci.c
+-ed:\новая папка\applana\scripts\2_looking_for_ticket\\logfile.log
+d:\новая папка\applana\scripts\2_looking_for_ticket\\combined_2_Looking_For_Ticket.c
+d:\новая папка\applana\scripts\2_looking_for_ticket\\pre_cci.c

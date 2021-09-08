@@ -19,6 +19,7 @@
     <FileEntry Name="01_Login.ci" Filter="1" />
     <FileEntry Name="01_Login.prm.bak" Filter="1" />
     <FileEntry Name="156425376440.idx" Filter="1" />
+    <FileEntry Name="162279167440.idx" Filter="1" />
     <FileEntry Name="182179635440.idx" Filter="1" />
     <FileEntry Name="1992354440.idx" Filter="1" />
     <FileEntry Name="218922564440.idx" Filter="1" />
@@ -59,6 +60,8 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrvfSo.697.log" Filter="1" />
     <FileEntry Name="mdrvIoo.273.log" Filter="1" />
+    <FileEntry Name="mdrvqPT.427.log" Filter="1" />
+    <FileEntry Name="mdrvS7p.497.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

@@ -1,4 +1,4 @@
-# 1 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c"
+# 1 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c"
 # 1 "D:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 1 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 
 # 1 "D:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 2 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 
 # 1 "globals.h" 1
 
@@ -2772,6 +2772,12 @@ Itinerary()
 	web_reg_find("Text/IC=Flights List",
 		"LAST");
 
+	web_reg_save_param("flightID",
+		"LB/IC= name=\"flightID\" value=\"",
+		"RB/IC=\"",
+		"LAST");
+
+
 	web_url("Itinerary Button", 
 		"URL=http://localhost.com:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -2796,16 +2802,17 @@ Itinerary()
  
 
 
-CheckBoxChecked()
+ChooseTicketForDelete()
 {
 	
-	lr_start_transaction("checkbox_checked");
+	lr_start_transaction("ChooseTicketForDelete");
 
 	web_reg_find("Text/IC=Flights List",
 		"LAST");
 
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
+
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t37.inf", 
@@ -2815,8 +2822,11 @@ CheckBoxChecked()
 		"Name=removeFlights.y", "Value=9","ENDITEM",
 		"LAST");
 
+	web_reg_find("Fail=Found",
+		"Text={flightID}",
+		"LAST");
 
-	lr_end_transaction("checkbox_checked",2);
+	lr_end_transaction("ChooseTicketForDelete",2);
 }
 
 
@@ -3134,14 +3144,14 @@ SignOff()
 
 
 
-# 3 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 3 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 4 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -3159,12 +3169,12 @@ lr_end_transaction("UC_01_logining",2);
 
 	return 0;
 }
-# 5 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 5 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "d:\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
+# 6 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\1_login\\\\combined_01_Login.c" 2
 

@@ -1,11 +1,11 @@
 [parameter:password]
-ColumnName="Col 1"
+ColumnName="password"
 Delimiter=","
 GenerateNewVal="EachIteration"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
 ParamName="password"
-SelectNextRow="Sequential"
+SelectNextRow="Same line as username"
 StartRow="1"
 Table="..\Parameters\userDataBase.dat"
 TableLocation="Local"

@@ -1,4 +1,4 @@
-Virtual User Script started at: 10.09.2021 15:09:19
+Virtual User Script started at: 10.09.2021 15:11:16
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -22,16 +22,26 @@ Action.c(4): Notify: Transaction "UC_01_logining" started.
 ..\\Parameters\\GlobalActions.h(38): Detected non-resource "http://localhost.com:1080/WebTours/home.html" in "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\GlobalActions.h(38): Found resource "http://localhost.com:1080/WebTours/images/mer_login.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\GlobalActions.h(38): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
-..\\Parameters\\GlobalActions.h(38): web_url("welcome.pl") was successful, 4216 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(38): web_url("welcome.pl") was successful, 4214 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\Parameters\\GlobalActions.h(48): web_set_sockets_option started  	[MsgId: MMSG-26355]
-..\\Parameters\\GlobalActions.h(48): Error -27755: Unknown SSL version AUTO: use one of '2', '3', '2&3', 'TLS', 'TLS1.1', 'TLS1.2'  	[MsgId: MERR-27755]
-..\\Parameters\\GlobalActions.h(48): web_set_sockets_option highest severity level was "ERROR"  	[MsgId: MMSG-26391]
-..\\Parameters\\GlobalActions.h(48): Notify: Transaction "Main_page" ended with a "Fail" status (Duration: 0.4323 Wasted Time: 0.0720).
-..\\Parameters\\GlobalActions.h(48): Notify: Transaction "Main_page" has 1 error message(s).
-..\\Parameters\\GlobalActions.h(48): Notify: The 1st error message associated with transaction "Main_page" is "Error -27755: Unknown SSL version AUTO: use one of '2', '3', '2&3', 'TLS', 'TLS1.1', 'TLS1.2'"
-..\\Parameters\\GlobalActions.h(48): Notify: Transaction "UC_01_logining" ended with a "Fail" status (Duration: 0.5433 Wasted Time: 0.0720).
-..\\Parameters\\GlobalActions.h(48): Notify: Transaction "UC_01_logining" has 1 error message(s).
-..\\Parameters\\GlobalActions.h(48): Notify: The 1st error message associated with transaction "UC_01_logining" is "Error -27755: Unknown SSL version AUTO: use one of '2', '3', '2&3', 'TLS', 'TLS1.1', 'TLS1.2'"
+..\\Parameters\\GlobalActions.h(48): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\GlobalActions.h(50): Notify: Transaction "Main_page" ended with a "Pass" status (Duration: 0.4910 Wasted Time: 0.0723).
+..\\Parameters\\GlobalActions.h(150): Notify: Transaction "login" started.
+..\\Parameters\\GlobalActions.h(152): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(152): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\GlobalActions.h(155): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(155): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\GlobalActions.h(158): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(158): Detected non-resource "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost.com:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\GlobalActions.h(158): Detected non-resource "http://localhost.com:1080/cgi-bin/login.pl?intro=true" in "http://localhost.com:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\GlobalActions.h(158): Found resource "http://localhost.com:1080/WebTours/images/flights.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\GlobalActions.h(158): Found resource "http://localhost.com:1080/WebTours/images/itinerary.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\GlobalActions.h(158): Found resource "http://localhost.com:1080/WebTours/images/in_home.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\GlobalActions.h(158): Found resource "http://localhost.com:1080/WebTours/images/signoff.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\GlobalActions.h(158): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\GlobalActions.h(158): web_submit_data("login.pl") was successful, 5779 body bytes, 2032 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(175): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2687 Wasted Time: 0.0430).
+Action.c(12): Notify: Transaction "UC_01_logining" ended with a "Pass" status (Duration: 0.8395 Wasted Time: 0.1153).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

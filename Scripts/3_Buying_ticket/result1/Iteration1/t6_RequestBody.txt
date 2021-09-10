@@ -1,4 +1,4 @@
 "firstName=jojof&lastName=jojol&address1=jojoa&address2=jojob&pass1=jojof+jojol&creditCard=5134"
 "8675&expDate=51348675&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight"
-"=121%3B237%3B09%2F10%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=35&b"
+"=101%3B343%3B09%2F10%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=35&b"
 "uyFlights.y=9&.cgifields=saveCC"

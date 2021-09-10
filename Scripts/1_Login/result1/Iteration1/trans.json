@@ -1,17 +1,22 @@
 [
     {
         "transactionName": "Main_page",
-        "rawStartTime": 1631275876414,
-        "rawEndTime": 1631275876905
+        "rawStartTime": 1631291798116,
+        "rawEndTime": 1631291798391
     },
     {
         "transactionName": "login",
-        "rawStartTime": 1631275876931,
-        "rawEndTime": 1631275877200
+        "rawStartTime": 1631291798414,
+        "rawEndTime": 1631291798522
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1631291798553,
+        "rawEndTime": 1631291798635
     },
     {
         "transactionName": "UC_01_logining",
-        "rawStartTime": 1631275876366,
-        "rawEndTime": 1631275877206
+        "rawStartTime": 1631291798087,
+        "rawEndTime": 1631291798645
     }
 ]

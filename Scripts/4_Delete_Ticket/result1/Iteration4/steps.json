@@ -1,0 +1,32 @@
+[
+    {
+        "stepId": "STEP16",
+        "stepName": "Url: welcome.pl",
+        "infFile": "t1.inf",
+        "time": 1631289463235
+    },
+    {
+        "stepId": "STEP17",
+        "stepName": "Submit Data: login.pl",
+        "infFile": "t2.inf",
+        "time": 1631289463377
+    },
+    {
+        "stepId": "STEP18",
+        "stepName": "Url: Itinerary Button",
+        "infFile": "t3.inf",
+        "time": 1631289463551
+    },
+    {
+        "stepId": "STEP19",
+        "stepName": "Submit Form: itinerary.pl",
+        "infFile": "t4.inf",
+        "time": 1631289463663
+    },
+    {
+        "stepId": "STEP20",
+        "stepName": "Url: SignOff Button",
+        "infFile": "t5.inf",
+        "time": 1631289463797
+    }
+]

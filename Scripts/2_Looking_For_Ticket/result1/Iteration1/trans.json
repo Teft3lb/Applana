@@ -1,37 +1,47 @@
 [
     {
         "transactionName": "Main_page",
-        "rawStartTime": 1631276210719,
-        "rawEndTime": 1631276210933
+        "rawStartTime": 1631291968915,
+        "rawEndTime": 1631291969155
     },
     {
         "transactionName": "login",
-        "rawStartTime": 1631276210958,
-        "rawEndTime": 1631276211212
+        "rawStartTime": 1631291969181,
+        "rawEndTime": 1631291969290
+    },
+    {
+        "transactionName": "Itinerary",
+        "rawStartTime": 1631291969323,
+        "rawEndTime": 1631291969464
     },
     {
         "transactionName": "flights",
-        "rawStartTime": 1631276211238,
-        "rawEndTime": 1631276211441
+        "rawStartTime": 1631291969495,
+        "rawEndTime": 1631291969633
     },
     {
         "transactionName": "find_flight",
-        "rawStartTime": 1631276211471,
-        "rawEndTime": 1631276211612
+        "rawStartTime": 1631291969665,
+        "rawEndTime": 1631291969724
     },
     {
         "transactionName": "choose_ticket",
-        "rawStartTime": 1631276211644,
-        "rawEndTime": 1631276211741
+        "rawStartTime": 1631291969743,
+        "rawEndTime": 1631291969813
+    },
+    {
+        "transactionName": "Itinerary",
+        "rawStartTime": 1631291969836,
+        "rawEndTime": 1631291969946
     },
     {
         "transactionName": "sign_off",
-        "rawStartTime": 1631276211767,
-        "rawEndTime": 1631276211886
+        "rawStartTime": 1631291969978,
+        "rawEndTime": 1631291970060
     },
     {
         "transactionName": "UC_02_looking_for_ticket",
-        "rawStartTime": 1631276210686,
-        "rawEndTime": 1631276211890
+        "rawStartTime": 1631291968912,
+        "rawEndTime": 1631291970072
     }
 ]

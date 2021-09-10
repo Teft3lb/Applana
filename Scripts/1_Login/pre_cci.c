@@ -3165,6 +3165,11 @@ lr_start_transaction("UC_01_logining");
 	lr_think_time(5);
 	
 	Login();
+	
+	lr_think_time(5);
+	
+	SignOff();
+	
 
 lr_end_transaction("UC_01_logining",2);
 

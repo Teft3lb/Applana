@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Main_page",
+        "rawStartTime": 1631289466877,
+        "rawEndTime": 1631289467005
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1631289467034,
+        "rawEndTime": 1631289467159
+    },
+    {
+        "transactionName": "Itinerary",
+        "rawStartTime": 1631289467191,
+        "rawEndTime": 1631289467338
+    },
+    {
+        "transactionName": "ChooseTicketForDelete",
+        "rawStartTime": 1631289467361,
+        "rawEndTime": 1631289467441
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1631289467472,
+        "rawEndTime": 1631289467573
+    },
+    {
+        "transactionName": "UC_04_Delete_ticket",
+        "rawStartTime": 1631289466862,
+        "rawEndTime": 1631289467583
+    }
+]

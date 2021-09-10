@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Applana\Scripts\3_Buying_ticket
--ID:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\applana\scripts\3_buying_ticket\\logfile.log
-d:\applana\scripts\3_buying_ticket\\combined_3_Buying_ticket.c
-d:\applana\scripts\3_buying_ticket\\pre_cci.c
+-ID:\Новая папка\Applana\Scripts\3_Buying_ticket
+-ID:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\новая папка\applana\scripts\3_buying_ticket\\logfile.log
+d:\новая папка\applana\scripts\3_buying_ticket\\combined_3_Buying_ticket.c
+d:\новая папка\applana\scripts\3_buying_ticket\\pre_cci.c

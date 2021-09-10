@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Applana\Scripts\5_Sign_Up
--ID:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\applana\scripts\5_sign_up\\logfile.log
-d:\applana\scripts\5_sign_up\\combined_5_Sign_Up.c
-d:\applana\scripts\5_sign_up\\pre_cci.c
+-ID:\Новая папка\Applana\Scripts\5_Sign_Up
+-ID:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\новая папка\applana\scripts\5_sign_up\\logfile.log
+d:\новая папка\applana\scripts\5_sign_up\\combined_5_Sign_Up.c
+d:\новая папка\applana\scripts\5_sign_up\\pre_cci.c

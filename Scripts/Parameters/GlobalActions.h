@@ -14,15 +14,22 @@ MainPage()
 		"1");
 
 /*Correlation comment - Do not change!  Original value='132093.646982584zHQtfzzpQzzzzzzHtAHzHptAVi' Name ='userSession' Type ='ResponseBased'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		"RequestUrl=*/nav.pl*",
+//	web_reg_save_param_attrib(
+//		"ParamName=userSession",
+//		"TagName=input",
+//		"Extract=value",
+//		"Name=userSession",
+//		"Type=hidden",
+//		SEARCH_FILTERS,
+//		"IgnoreRedirections=No",
+//		"RequestUrl=*/nav.pl*",
+//		LAST);
+
+
+
+	web_reg_save_param("userSession",
+		"LB/IC=name=\"userSession\" value=\"",
+		"RB/IC=\"/>",
 		LAST);
 
 	web_reg_find("Text/IC=Web Tours",
@@ -38,7 +45,7 @@ MainPage()
 		"Mode=HTML", 
 		LAST);
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	web_set_sockets_option("SSL_VERSION", "2&3");
 
 	lr_end_transaction("Main_page",LR_AUTO);
 }

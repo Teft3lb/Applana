@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=09%2F07%2F2021&arrive=San+Francisco&returnDate"
-"=09%2F12%2F2021&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=42&findFlights.y=3&"
-".cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=121%3B237%3B09%2F10%2F2021&numPassengers=1&advanceDiscount=0&seatType=Coach&sea"
+"tPref=Window&reserveFlights.x=30&reserveFlights.y=11"

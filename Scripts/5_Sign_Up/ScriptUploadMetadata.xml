@@ -15,6 +15,7 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_5_Sign_Up.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="142083180440.idx" Filter="1" />
     <FileEntry Name="145574776440.idx" Filter="1" />
     <FileEntry Name="14557477644_3FM.417.idx" Filter="1" />
     <FileEntry Name="14557477644_bcx.245.idx" Filter="1" />
@@ -44,6 +45,7 @@
     <FileEntry Name="5_Sign_Up.c.pickle" Filter="1" />
     <FileEntry Name="5_Sign_Up.ci" Filter="1" />
     <FileEntry Name="5_Sign_Up.prm.bak" Filter="1" />
+    <FileEntry Name="5_Sign_Up.sdf" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -51,6 +53,9 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvIUz.373.log" Filter="1" />
+    <FileEntry Name="mdrvY33.503.log" Filter="1" />
+    <FileEntry Name="mdrvYxm.785.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="NewParam_1.dat" Filter="1" />

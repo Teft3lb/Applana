@@ -15,6 +15,7 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_3_Buying_ticket.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="112459165440.idx" Filter="1" />
     <FileEntry Name="139508487440.idx" Filter="1" />
     <FileEntry Name="13950848744_1L6.63.idx" Filter="1" />
     <FileEntry Name="13950848744_5zE.655.idx" Filter="1" />
@@ -63,6 +64,7 @@
     <FileEntry Name="3_Buying_ticket.c.pickle" Filter="1" />
     <FileEntry Name="3_Buying_ticket.ci" Filter="1" />
     <FileEntry Name="3_Buying_ticket.prm.bak" Filter="1" />
+    <FileEntry Name="3_Buying_ticket.sdf" Filter="1" />
     <FileEntry Name="66148866440.idx" Filter="1" />
     <FileEntry Name="6614886644_Ao1.892.idx" Filter="1" />
     <FileEntry Name="6614886644_j3o.208.idx" Filter="1" />
@@ -240,6 +242,9 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvo9S.397.log" Filter="1" />
+    <FileEntry Name="mdrvoYQ.919.log" Filter="1" />
+    <FileEntry Name="mdrvw6K.147.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam(1).dat" Filter="1" />
     <FileEntry Name="NewParam(2).dat" Filter="1" />

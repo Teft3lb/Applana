@@ -1,6 +1,5 @@
-POST /cgi-bin/login.pl HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-Referer: http://localhost.com:1080/cgi-bin/login.pl?username=&password=&getInfo=true
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Referer: http://localhost.com:1080/cgi-bin/login.pl
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
 Accept-Encoding: gzip, deflate
@@ -8,6 +7,5 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost.com:1080
-Cookie: MSO=SID&1631015493
-Content-Length: 156
+Cookie: MSO=SID&1631276328; MTUserInfo=firstName&jojof9665&address2&jojob9665&username&jojo9665&hash&117&lastName&jojol9665&address1&jojoa9665&creditCard&&expDate&
 

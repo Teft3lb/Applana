@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "Main_page",
+        "rawStartTime": 1631276327858,
+        "rawEndTime": 1631276328340
+    },
+    {
+        "transactionName": "filling_form",
+        "rawStartTime": 1631276328367,
+        "rawEndTime": 1631276328650
+    },
+    {
+        "transactionName": "continue_button",
+        "rawStartTime": 1631276328693,
+        "rawEndTime": 1631276328938
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1631276328961,
+        "rawEndTime": 1631276329078
+    },
+    {
+        "transactionName": "UC_05_Sign_up",
+        "rawStartTime": 1631276327817,
+        "rawEndTime": 1631276329085
+    }
+]

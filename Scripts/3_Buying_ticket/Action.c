@@ -26,6 +26,8 @@ lr_start_transaction("UC_03_Buy_ticket");
 	PaymentDetails();
 	
 		lr_think_time(5);
+		
+	SignOff();
 
 lr_end_transaction("UC_03_Buy_ticket",LR_AUTO);
 	return 0;

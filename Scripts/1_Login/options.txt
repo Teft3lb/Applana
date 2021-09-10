@@ -3,7 +3,7 @@
 -D_IDA_XL
 -DWINNT
 -ID:\Новая папка\Applana\Scripts\1_Login
--ID:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ID:\Program Files (x86)\HPE\LoadRunner\include
 -ed:\новая папка\applana\scripts\1_login\\logfile.log
 d:\новая папка\applana\scripts\1_login\\combined_01_Login.c
 d:\новая папка\applana\scripts\1_login\\pre_cci.c

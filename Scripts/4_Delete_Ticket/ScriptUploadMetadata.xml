@@ -4,7 +4,7 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Action1.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -216,13 +216,23 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv43p.331.log" Filter="1" />
     <FileEntry Name="mdrv7Cv.737.log" Filter="1" />
+    <FileEntry Name="mdrv9V6.487.log" Filter="1" />
+    <FileEntry Name="mdrvahg.213.log" Filter="1" />
     <FileEntry Name="mdrvblP.821.log" Filter="1" />
     <FileEntry Name="mdrvBTg.475.log" Filter="1" />
     <FileEntry Name="mdrvdjy.187.log" Filter="1" />
+    <FileEntry Name="mdrvFGz.63.log" Filter="1" />
+    <FileEntry Name="mdrvh3K.109.log" Filter="1" />
+    <FileEntry Name="mdrvi1C.549.log" Filter="1" />
+    <FileEntry Name="mdrvI2c.993.log" Filter="1" />
     <FileEntry Name="mdrvMlZ.301.log" Filter="1" />
+    <FileEntry Name="mdrvo2O.821.log" Filter="1" />
+    <FileEntry Name="mdrvoV7.779.log" Filter="1" />
+    <FileEntry Name="mdrvr4W.997.log" Filter="1" />
     <FileEntry Name="mdrvRX4.691.log" Filter="1" />
     <FileEntry Name="mdrvS6h.973.log" Filter="1" />
     <FileEntry Name="mdrvVKq.621.log" Filter="1" />
+    <FileEntry Name="mdrvXy6.605.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

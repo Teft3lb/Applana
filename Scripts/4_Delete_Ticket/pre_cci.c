@@ -3177,7 +3177,7 @@ lr_start_transaction("UC_04_Delete_ticket");
 	ChooseTicketForDelete();
 		
 		lr_think_time(5);
-
+		
 	SignOff();
 
 lr_end_transaction("UC_04_Delete_ticket",2);

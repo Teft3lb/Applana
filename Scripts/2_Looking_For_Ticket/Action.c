@@ -29,7 +29,6 @@ lr_start_transaction("UC_02_looking_for_ticket");
 	
 	Itinerary();
 	
-		lr_think_time(2);
 	
 	SignOff();
 	

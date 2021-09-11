@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+..\\Parameters\\GlobalActions.h(237): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\GlobalActions.h(237): web_submit_form("itinerary.pl") was successful, 68262 body bytes, 256 header bytes, 139 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(245): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(245): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\GlobalActions.h(249): Notify: Transaction "ChooseTicketForDelete" ended with a "Pass" status (Duration: 0,0447 Wasted Time: 0,0001).	[MsgId: MMSG-16871]
+Action1.c(21): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action1.c(23): Notify: Transaction "UC_04_Delete_ticket" ended with a "Pass" status (Duration: 20,3688 Think Time: 20,0238 Wasted Time: 0,0006).	[MsgId: MMSG-16870]
+Ending action Action1.	[MsgId: MMSG-15918]
+Error -27257: Pending web_reg_save_param/web_create_html_param/web_create_html_param_ex/web_reg_find request(s) detected and reset at the end of iteration number 1  	[MsgId: MERR-27257]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,50 +1,44 @@
 [
     {
-        "stepId": "STEP25",
+        "stepId": "STEP22",
         "stepName": "Url: welcome.pl",
         "infFile": "t1.inf",
-        "time": 1631292341158
+        "time": 1631353641463
+    },
+    {
+        "stepId": "STEP23",
+        "stepName": "Submit Data: login.pl",
+        "infFile": "t2.inf",
+        "time": 1631353641608
+    },
+    {
+        "stepId": "STEP24",
+        "stepName": "Url: Search Flights Button",
+        "infFile": "t3.inf",
+        "time": 1631353641787
+    },
+    {
+        "stepId": "STEP25",
+        "stepName": "Submit Data: reservations.pl",
+        "infFile": "t4.inf",
+        "time": 1631353641884
     },
     {
         "stepId": "STEP26",
-        "stepName": "Submit Data: login.pl",
-        "infFile": "t2.inf",
-        "time": 1631292341299
+        "stepName": "Submit Data: reservations.pl_2",
+        "infFile": "t5.inf",
+        "time": 1631353641984
     },
     {
         "stepId": "STEP27",
-        "stepName": "Url: Search Flights Button",
-        "infFile": "t3.inf",
-        "time": 1631292341471
+        "stepName": "Submit Data: reservations.pl_3",
+        "infFile": "t6.inf",
+        "time": 1631353642084
     },
     {
         "stepId": "STEP28",
-        "stepName": "Submit Data: reservations.pl",
-        "infFile": "t4.inf",
-        "time": 1631292341559
-    },
-    {
-        "stepId": "STEP29",
-        "stepName": "Submit Data: reservations.pl_2",
-        "infFile": "t5.inf",
-        "time": 1631292341651
-    },
-    {
-        "stepId": "STEP30",
-        "stepName": "Submit Data: reservations.pl_3",
-        "infFile": "t6.inf",
-        "time": 1631292341747
-    },
-    {
-        "stepId": "STEP31",
-        "stepName": "Url: Itinerary Button",
-        "infFile": "t7.inf",
-        "time": 1631292341916
-    },
-    {
-        "stepId": "STEP32",
         "stepName": "Url: SignOff Button",
-        "infFile": "t8.inf",
-        "time": 1631292342028
+        "infFile": "t7.inf",
+        "time": 1631353642274
     }
 ]

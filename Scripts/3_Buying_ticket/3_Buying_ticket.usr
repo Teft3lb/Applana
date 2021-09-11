@@ -54,7 +54,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC_03_Buy_ticket"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

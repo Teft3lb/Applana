@@ -1,3 +1,0 @@
-"flightID=26687-812-mm&2=on&flightID=156184588-1606-mm&flightID=156182302-2321-mm&flightID=1561"
-"807-30-mm&flightID=156148901-3872-mm&.cgifields=4&.cgifields=1&.cgifields=3&.cgifields=2&.cgif"
-"ields=5&removeFlights.x=52&removeFlights.y=9"

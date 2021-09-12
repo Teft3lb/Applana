@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Paris&departDate=09%2F11%2F2021&arrive=San+Francisco&returnDate=09%2F"
-"16%2F2021&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=42&findFlights.y=3&.cgifi"
-"elds=roundtrip&.cgifields=seatType&.cgifields=seatPref"

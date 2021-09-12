@@ -242,13 +242,19 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6Cu.743.log" Filter="1" />
+    <FileEntry Name="mdrv6e2.85.log" Filter="1" />
+    <FileEntry Name="mdrvahg.213.log" Filter="1" />
     <FileEntry Name="mdrvD6k.935.log" Filter="1" />
     <FileEntry Name="mdrvGpk.867.log" Filter="1" />
+    <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvo9S.397.log" Filter="1" />
+    <FileEntry Name="mdrvOpp.669.log" Filter="1" />
     <FileEntry Name="mdrvoYQ.919.log" Filter="1" />
     <FileEntry Name="mdrvQz2.891.log" Filter="1" />
     <FileEntry Name="mdrvVvv.377.log" Filter="1" />
     <FileEntry Name="mdrvw6K.147.log" Filter="1" />
+    <FileEntry Name="mdrvXVt.221.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam(1).dat" Filter="1" />
     <FileEntry Name="NewParam(2).dat" Filter="1" />

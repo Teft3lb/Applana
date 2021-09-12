@@ -1,0 +1,53 @@
+28 11 1631445248 2 270988552 1924116898 1699572
+28 4 1_Login 1 1631445249 0 1_login_1_1_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 1_Login 1 1631445249 0 localhost 0
+28 8 1_Login 1  0 0
+28 2 1_Login 1 1631445249 0 p 0 0
+28 4 2_Looking_For_Ticket 1 1631445251 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_Looking_For_Ticket 1 1631445251 0 localhost 0
+28 8 2_Looking_For_Ticket 1  0 0
+28 2 2_Looking_For_Ticket 1 1631445251 0 p 0 0
+28 4 3_Buying_ticket 1 1631445253 0 3_buying_ticket_1 localhost 0 1
+28 0 3_Buying_ticket 1 1631445253 0 localhost 0
+28 8 3_Buying_ticket 1  0 0
+28 2 3_Buying_ticket 1 1631445253 0 p 0 0
+28 4 5_Sign_Up 1 1631445255 0 5_sign_up_1 localhost 0 1
+28 0 5_Sign_Up 1 1631445255 0 localhost 0
+28 8 5_Sign_Up 1  0 0
+28 2 5_Sign_Up 1 1631445255 0 p 0 0
+28 4 1_Login 2 1631445257 0 1_login_1_1_1 localhost 0 1
+28 0 1_Login 2 1631445257 0 localhost 0
+28 8 1_Login 2  0 0
+28 2 1_Login 2 1631445257 0 p 0 0
+28 4 4_Delete_Ticket 1 1631445259 0 4_delete_ticket_1 localhost 0 1
+28 0 4_Delete_Ticket 1 1631445259 0 localhost 0
+28 8 4_Delete_Ticket 1  0 0
+28 2 4_Delete_Ticket 1 1631445259 0 p 0 0
+28 4 3_Buying_ticket 2 1631445261 0 3_buying_ticket_1 localhost 0 1
+28 0 3_Buying_ticket 2 1631445261 0 localhost 0
+28 8 3_Buying_ticket 2  0 0
+28 2 3_Buying_ticket 2 1631445261 0 p 0 0
+28 4 2_Looking_For_Ticket 2 1631445263 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_Looking_For_Ticket 2 1631445263 0 localhost 0
+28 8 2_Looking_For_Ticket 2  0 0
+28 2 2_Looking_For_Ticket 2 1631445263 0 p 0 0
+28 4 5_Sign_Up 2 1631445265 0 5_sign_up_1 localhost 0 1
+28 0 5_Sign_Up 2 1631445265 0 localhost 0
+28 8 5_Sign_Up 2  0 0
+28 2 5_Sign_Up 2 1631445265 0 p 0 0
+28 4 1_Login 3 1631445267 0 1_login_1_1_1 localhost 0 1
+28 0 1_Login 3 1631445267 0 localhost 0
+28 8 1_Login 3  0 0
+28 2 1_Login 3 1631445267 0 p 0 0
+28 1 5_Sign_Up 2 1631446569 0 2
+28 1 2_Looking_For_Ticket 2 1631446577 0 2
+28 1 4_Delete_Ticket 1 1631446580 0 2
+28 1 3_Buying_ticket 1 1631446594 0 2
+28 1 1_Login 1 1631446599 0 2
+28 1 3_Buying_ticket 2 1631446602 0 2
+28 1 1_Login 2 1631446607 0 2
+28 1 1_Login 3 1631446618 0 2
+28 1 5_Sign_Up 1 1631446634 0 2
+28 1 2_Looking_For_Ticket 1 1631446640 0 2
+28 12 1631446640 0 1631446640 0 1631446640

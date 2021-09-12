@@ -3,30 +3,30 @@
         "stepId": "STEP1",
         "stepName": "Url: welcome.pl",
         "infFile": "t1.inf",
-        "time": 1631311863029
+        "time": 1631473036101
     },
     {
         "stepId": "STEP2",
         "stepName": "Submit Data: login.pl",
         "infFile": "t2.inf",
-        "time": 1631311863174
+        "time": 1631473036410
     },
     {
         "stepId": "STEP3",
         "stepName": "Url: Itinerary Button",
         "infFile": "t3.inf",
-        "time": 1631311863340
+        "time": 1631473036761
     },
     {
         "stepId": "STEP4",
         "stepName": "Submit Form: itinerary.pl",
         "infFile": "t4.inf",
-        "time": 1631311863469
+        "time": 1631473037004
     },
     {
         "stepId": "STEP5",
         "stepName": "Url: SignOff Button",
         "infFile": "t5.inf",
-        "time": 1631311863609
+        "time": 1631473037278
     }
 ]

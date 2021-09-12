@@ -1,9 +1,0 @@
-GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
-Referer: http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=itinerary
-User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: Keep-Alive
-Host: localhost.com:1080
-Cookie: MSO=SID&1631353676; MTUserInfo=firstName&ribaf&username&riba&address2&riba2&hash&33&address1&ribaa&lastName&ribal%0A
-

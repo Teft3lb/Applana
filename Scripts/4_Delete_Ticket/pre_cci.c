@@ -2814,18 +2814,20 @@ ChooseTicketForDelete()
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
 
+		web_reg_find("Fail=Found",
+		"Text={flightID}",
+		"LAST");
+
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t37.inf", 
 		"ITEMDATA", 
-		"Name=2", "Value=on", "ENDITEM",
+		"Name=1", "Value=on", "ENDITEM",
 		"Name=removeFlights.x", "Value=52","ENDITEM",
 		"Name=removeFlights.y", "Value=9","ENDITEM",
 		"LAST");
 
-	web_reg_find("Fail=Found",
-		"Text={flightID}",
-		"LAST");
+
 
 	lr_end_transaction("ChooseTicketForDelete",2);
 }
@@ -2964,8 +2966,8 @@ FindFlight_rnd()
 		"Name=arrive", "Value={arrive}", "ENDITEM", 
 		"Name=returnDate", "Value={Date2}", "ENDITEM", 
 		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=seatPref", "Value=None", "ENDITEM", 
-		"Name=seatType", "Value=Coach", "ENDITEM", 
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=findFlights.x", "Value=42", "ENDITEM", 
 		"Name=findFlights.y", "Value=3", "ENDITEM", 
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
@@ -3006,8 +3008,8 @@ ChooseTicket()
 		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
 		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=seatType", "Value=Coach", "ENDITEM",
-		"Name=seatPref", "Value=Window", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=reserveFlights.x", "Value=30", "ENDITEM",
 		"Name=reserveFlights.y", "Value=11", "ENDITEM",
 		"LAST");
@@ -3155,8 +3157,8 @@ vuser_init()
 }
 # 4 "d:\\\355\356\342\340\377 \357\340\357\352\340\\applana\\scripts\\4_delete_ticket\\\\combined_4_Delete_Ticket.c" 2
 
-# 1 "Action1.c" 1
-Action1()
+# 1 "Action.c" 1
+Action()
 {
 
 
@@ -3164,19 +3166,19 @@ lr_start_transaction("UC_04_Delete_ticket");
 		
 	MainPage();
 	
-		lr_think_time(5);
+		lr_think_time(6);
 		
 	Login();
 	
-		lr_think_time(5);
+		lr_think_time(6);
 	
 	Itinerary();
 	
-		lr_think_time(5);
+		lr_think_time(6);
 
 	ChooseTicketForDelete();
 		
-		lr_think_time(5);
+		lr_think_time(6);
 		
 	SignOff();
 

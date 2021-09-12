@@ -1,2 +1,0 @@
-[Hosts]
-localhost=d:\новая папка\resultats\res\localhost_49.eve

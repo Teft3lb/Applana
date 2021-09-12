@@ -1,4 +1,4 @@
-Virtual User Script started at: 11.09.2021 1:10:45
+Virtual User Script started at: 12.09.2021 21:56:18
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -8,8 +8,8 @@ Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
-Starting action Action1.
-Action1.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
+Starting action Action.
+Action.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
 ..\\Parameters\\GlobalActions.h(11): Notify: Transaction "Main_page" started.
 ..\\Parameters\\GlobalActions.h(13): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(13): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
@@ -22,10 +22,10 @@ Action1.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
 ..\\Parameters\\GlobalActions.h(38): Detected non-resource "http://localhost.com:1080/WebTours/home.html" in "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\Parameters\\GlobalActions.h(38): Found resource "http://localhost.com:1080/WebTours/images/mer_login.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\GlobalActions.h(38): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
-..\\Parameters\\GlobalActions.h(38): web_url("welcome.pl") was successful, 4212 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(38): web_url("welcome.pl") was successful, 4216 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\Parameters\\GlobalActions.h(48): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(48): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-..\\Parameters\\GlobalActions.h(50): Notify: Transaction "Main_page" ended with a "Pass" status (Duration: 0.5716 Wasted Time: 0.0665).
+..\\Parameters\\GlobalActions.h(50): Notify: Transaction "Main_page" ended with a "Pass" status (Duration: 0.1945 Wasted Time: 0.0737).
 ..\\Parameters\\GlobalActions.h(150): Notify: Transaction "login" started.
 ..\\Parameters\\GlobalActions.h(152): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(152): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -40,7 +40,7 @@ Action1.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
 ..\\Parameters\\GlobalActions.h(158): Found resource "http://localhost.com:1080/WebTours/images/signoff.gif" in HTML "http://localhost.com:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\Parameters\\GlobalActions.h(158): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
 ..\\Parameters\\GlobalActions.h(158): web_submit_data("login.pl") was successful, 5779 body bytes, 2032 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\GlobalActions.h(175): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1121 Wasted Time: 0.0060).
+..\\Parameters\\GlobalActions.h(175): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2447 Wasted Time: 0.0340).
 ..\\Parameters\\GlobalActions.h(190): Notify: Transaction "Itinerary" started.
 ..\\Parameters\\GlobalActions.h(192): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(192): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -56,8 +56,8 @@ Action1.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
 ..\\Parameters\\GlobalActions.h(201): Found resource "http://localhost.com:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost.com:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 ..\\Parameters\\GlobalActions.h(201): Found resource "http://localhost.com:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost.com:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 ..\\Parameters\\GlobalActions.h(201): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\GlobalActions.h(201): web_url("Itinerary Button") was successful, 68802 body bytes, 1913 header bytes, 155 chunking overhead bytes  	[MsgId: MMSG-26385]
-..\\Parameters\\GlobalActions.h(211): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 0.1441 Wasted Time: 0.0055).
+..\\Parameters\\GlobalActions.h(201): web_url("Itinerary Button") was successful, 288898 body bytes, 1913 header bytes, 571 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(211): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 0.3043 Wasted Time: 0.1053).
 ..\\Parameters\\GlobalActions.h(228): Notify: Transaction "ChooseTicketForDelete" started.
 ..\\Parameters\\GlobalActions.h(230): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(230): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -68,13 +68,25 @@ Action1.c(5): Notify: Transaction "UC_04_Delete_ticket" started.
 ..\\Parameters\\GlobalActions.h(237): Resource "http://localhost.com:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\GlobalActions.h(237): Resource "http://localhost.com:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\Parameters\\GlobalActions.h(237): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
-..\\Parameters\\GlobalActions.h(237): web_submit_form("itinerary.pl") was successful, 62605 body bytes, 255 header bytes, 131 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(237): web_submit_form("itinerary.pl") was successful, 282692 body bytes, 255 header bytes, 538 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\Parameters\\GlobalActions.h(245): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\Parameters\\GlobalActions.h(245): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-..\\Parameters\\GlobalActions.h(249): Notify: Transaction "ChooseTicketForDelete" ended with a "Pass" status (Duration: 0.1015 Wasted Time: 0.0037).
-Action1.c(25): Notify: Transaction "UC_04_Delete_ticket" ended with a "Pass" status (Duration: 1.0441 Wasted Time: 0.0817).
-Ending action Action1.
-Error -27257: Pending web_reg_save_param/web_create_html_param/web_create_html_param_ex/web_reg_find request(s) detected and reset at the end of iteration number 1  	[MsgId: MERR-27257]
+..\\Parameters\\GlobalActions.h(250): Notify: Transaction "ChooseTicketForDelete" ended with a "Pass" status (Duration: 0.2254 Wasted Time: 0.0828).
+..\\Parameters\\GlobalActions.h(540): Notify: Transaction "sign_off" started.
+..\\Parameters\\GlobalActions.h(542): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(542): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\GlobalActions.h(545): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\GlobalActions.h(545): Detected non-resource "http://localhost.com:1080/cgi-bin/nav.pl?in=home" in "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\GlobalActions.h(545): Detected non-resource "http://localhost.com:1080/WebTours/home.html" in "http://localhost.com:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\GlobalActions.h(545): Retrieving data from cache for "http://localhost.com:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\GlobalActions.h(545): Resource "http://localhost.com:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\GlobalActions.h(545): Registered web_reg_find successful for "Text=3213125-7-jj"  	[MsgId: MMSG-26362]
+..\\Parameters\\GlobalActions.h(545): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+..\\Parameters\\GlobalActions.h(545): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\Parameters\\GlobalActions.h(555): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0.2321 Wasted Time: 0.0205).
+Action.c(25): Notify: Transaction "UC_04_Delete_ticket" ended with a "Pass" status (Duration: 1.3425 Wasted Time: 0.3163).
+Ending action Action.
+Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

@@ -1,0 +1,253 @@
+28 11 1631449785 2 191160832 1269561352 1699572
+28 4 1_login_1 1 1631449785 0 1_login_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 1_login_1 1 1631449785 0 localhost 0
+28 8 1_login_1 1  0 0
+28 2 1_login_1 1 1631449785 0 p 0 0
+28 4 3_buying_ticket_1 1 1631449790 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 1 1631449790 0 localhost 0
+28 8 3_buying_ticket_1 1  0 0
+28 2 3_buying_ticket_1 1 1631449790 0 p 0 0
+28 4 5_sign_up_1 1 1631449795 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 1 1631449795 0 localhost 0
+28 8 5_sign_up_1 1  0 0
+28 2 5_sign_up_1 1 1631449795 0 p 0 0
+28 4 2_looking_for_ticket_1 1 1631449800 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 1 1631449800 0 localhost 0
+28 8 2_looking_for_ticket_1 1  0 0
+28 2 2_looking_for_ticket_1 1 1631449800 0 p 0 0
+28 4 1_login_1 2 1631449805 0 1_login_1 localhost 0 1
+28 0 1_login_1 2 1631449805 0 localhost 0
+28 8 1_login_1 2  0 0
+28 2 1_login_1 2 1631449805 0 p 0 0
+28 4 4_delete_ticket_1 1 1631449811 0 4_delete_ticket_1 localhost 0 1
+28 0 4_delete_ticket_1 1 1631449811 0 localhost 0
+28 8 4_delete_ticket_1 1  0 0
+28 2 4_delete_ticket_1 1 1631449811 0 p 0 0
+28 4 5_sign_up_1 2 1631449815 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 2 1631449815 0 localhost 0
+28 8 5_sign_up_1 2  0 0
+28 2 5_sign_up_1 2 1631449815 0 p 0 0
+28 4 3_buying_ticket_1 2 1631449821 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 2 1631449821 0 localhost 0
+28 8 3_buying_ticket_1 2  0 0
+28 2 3_buying_ticket_1 2 1631449821 0 p 0 0
+28 4 2_looking_for_ticket_1 2 1631449826 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 2 1631449826 0 localhost 0
+28 8 2_looking_for_ticket_1 2  0 0
+28 2 2_looking_for_ticket_1 2 1631449826 0 p 0 0
+28 4 1_login_1 3 1631449831 0 1_login_1 localhost 0 1
+28 0 1_login_1 3 1631449831 0 localhost 0
+28 8 1_login_1 3  0 0
+28 2 1_login_1 3 1631449831 0 p 0 0
+28 4 1_login_1 4 1631451151 0 1_login_1 localhost 0 1
+28 0 1_login_1 4 1631451151 0 localhost 0
+28 8 1_login_1 4  0 0
+28 2 1_login_1 4 1631451151 0 p 0 0
+28 4 5_sign_up_1 3 1631451156 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 3 1631451156 0 localhost 0
+28 8 5_sign_up_1 3  0 0
+28 2 5_sign_up_1 3 1631451156 0 p 0 0
+28 4 3_buying_ticket_1 3 1631451161 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 3 1631451161 0 localhost 0
+28 8 3_buying_ticket_1 3  0 0
+28 2 3_buying_ticket_1 3 1631451161 0 p 0 0
+28 4 2_looking_for_ticket_1 3 1631451166 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 3 1631451166 0 localhost 0
+28 8 2_looking_for_ticket_1 3  0 0
+28 2 2_looking_for_ticket_1 3 1631451166 0 p 0 0
+28 4 1_login_1 5 1631451171 0 1_login_1 localhost 0 1
+28 0 1_login_1 5 1631451171 0 localhost 0
+28 8 1_login_1 5  0 0
+28 2 1_login_1 5 1631451171 0 p 0 0
+28 4 4_delete_ticket_1 2 1631451176 0 4_delete_ticket_1 localhost 0 1
+28 0 4_delete_ticket_1 2 1631451176 0 localhost 0
+28 8 4_delete_ticket_1 2  0 0
+28 2 4_delete_ticket_1 2 1631451176 0 p 0 0
+28 4 5_sign_up_1 4 1631451181 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 4 1631451181 0 localhost 0
+28 8 5_sign_up_1 4  0 0
+28 2 5_sign_up_1 4 1631451181 0 p 0 0
+28 4 3_buying_ticket_1 4 1631451186 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 4 1631451186 0 localhost 0
+28 8 3_buying_ticket_1 4  0 0
+28 2 3_buying_ticket_1 4 1631451186 0 p 0 0
+28 4 2_looking_for_ticket_1 4 1631451191 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 4 1631451191 0 localhost 0
+28 8 2_looking_for_ticket_1 4  0 0
+28 2 2_looking_for_ticket_1 4 1631451191 0 p 0 0
+28 4 1_login_1 6 1631451196 0 1_login_1 localhost 0 1
+28 0 1_login_1 6 1631451196 0 localhost 0
+28 8 1_login_1 6  0 0
+28 2 1_login_1 6 1631451196 0 p 0 0
+28 4 1_login_1 7 1631452516 0 1_login_1 localhost 0 1
+28 0 1_login_1 7 1631452516 0 localhost 0
+28 8 1_login_1 7  0 0
+28 2 1_login_1 7 1631452516 0 p 0 0
+28 4 5_sign_up_1 5 1631452521 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 5 1631452521 0 localhost 0
+28 8 5_sign_up_1 5  0 0
+28 2 5_sign_up_1 5 1631452521 0 p 0 0
+28 4 3_buying_ticket_1 5 1631452526 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 5 1631452526 0 localhost 0
+28 8 3_buying_ticket_1 5  0 0
+28 2 3_buying_ticket_1 5 1631452527 0 p 0 0
+28 4 2_looking_for_ticket_1 5 1631452532 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 5 1631452532 0 localhost 0
+28 8 2_looking_for_ticket_1 5  0 0
+28 2 2_looking_for_ticket_1 5 1631452532 0 p 0 0
+28 4 1_login_1 8 1631452537 0 1_login_1 localhost 0 1
+28 0 1_login_1 8 1631452537 0 localhost 0
+28 8 1_login_1 8  0 0
+28 2 1_login_1 8 1631452537 0 p 0 0
+28 4 4_delete_ticket_1 3 1631452542 0 4_delete_ticket_1 localhost 0 1
+28 0 4_delete_ticket_1 3 1631452542 0 localhost 0
+28 8 4_delete_ticket_1 3  0 0
+28 2 4_delete_ticket_1 3 1631452542 0 p 0 0
+28 4 5_sign_up_1 6 1631452547 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 6 1631452547 0 localhost 0
+28 8 5_sign_up_1 6  0 0
+28 2 5_sign_up_1 6 1631452547 0 p 0 0
+28 4 3_buying_ticket_1 6 1631452552 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 6 1631452552 0 localhost 0
+28 8 3_buying_ticket_1 6  0 0
+28 2 3_buying_ticket_1 6 1631452552 0 p 0 0
+28 4 2_looking_for_ticket_1 6 1631452557 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 6 1631452557 0 localhost 0
+28 8 2_looking_for_ticket_1 6  0 0
+28 2 2_looking_for_ticket_1 6 1631452557 0 p 0 0
+28 4 1_login_1 9 1631452562 0 1_login_1 localhost 0 1
+28 0 1_login_1 9 1631452562 0 localhost 0
+28 8 1_login_1 9  0 0
+28 2 1_login_1 9 1631452562 0 p 0 0
+28 4 1_login_1 10 1631453882 0 1_login_1 localhost 0 1
+28 0 1_login_1 10 1631453882 0 localhost 0
+28 8 1_login_1 10  0 0
+28 2 1_login_1 10 1631453882 0 p 0 0
+28 4 5_sign_up_1 7 1631453887 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 7 1631453887 0 localhost 0
+28 8 5_sign_up_1 7  0 0
+28 2 5_sign_up_1 7 1631453887 0 p 0 0
+28 4 3_buying_ticket_1 7 1631453892 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 7 1631453892 0 localhost 0
+28 8 3_buying_ticket_1 7  0 0
+28 2 3_buying_ticket_1 7 1631453892 0 p 0 0
+28 4 2_looking_for_ticket_1 7 1631453897 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 7 1631453897 0 localhost 0
+28 8 2_looking_for_ticket_1 7  0 0
+28 2 2_looking_for_ticket_1 7 1631453897 0 p 0 0
+28 4 1_login_1 11 1631453902 0 1_login_1 localhost 0 1
+28 0 1_login_1 11 1631453902 0 localhost 0
+28 8 1_login_1 11  0 0
+28 2 1_login_1 11 1631453902 0 p 0 0
+28 4 4_delete_ticket_1 4 1631453907 0 4_delete_ticket_1 localhost 0 1
+28 0 4_delete_ticket_1 4 1631453907 0 localhost 0
+28 8 4_delete_ticket_1 4  0 0
+28 2 4_delete_ticket_1 4 1631453907 0 p 0 0
+28 4 5_sign_up_1 8 1631453912 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 8 1631453912 0 localhost 0
+28 8 5_sign_up_1 8  0 0
+28 2 5_sign_up_1 8 1631453912 0 p 0 0
+28 4 3_buying_ticket_1 8 1631453917 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 8 1631453917 0 localhost 0
+28 8 3_buying_ticket_1 8  0 0
+28 2 3_buying_ticket_1 8 1631453917 0 p 0 0
+28 4 2_looking_for_ticket_1 8 1631453922 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 8 1631453922 0 localhost 0
+28 8 2_looking_for_ticket_1 8  0 0
+28 2 2_looking_for_ticket_1 8 1631453923 0 p 0 0
+28 4 1_login_1 12 1631453928 0 1_login_1 localhost 0 1
+28 0 1_login_1 12 1631453928 0 localhost 0
+28 8 1_login_1 12  0 0
+28 2 1_login_1 12 1631453928 0 p 0 0
+28 4 1_login_1 13 1631455248 0 1_login_1 localhost 0 1
+28 0 1_login_1 13 1631455248 0 localhost 0
+28 8 1_login_1 13  0 0
+28 2 1_login_1 13 1631455248 0 p 0 0
+28 4 5_sign_up_1 9 1631455253 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 9 1631455253 0 localhost 0
+28 8 5_sign_up_1 9  0 0
+28 2 5_sign_up_1 9 1631455253 0 p 0 0
+28 4 3_buying_ticket_1 9 1631455258 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 9 1631455258 0 localhost 0
+28 8 3_buying_ticket_1 9  0 0
+28 2 3_buying_ticket_1 9 1631455258 0 p 0 0
+28 4 2_looking_for_ticket_1 9 1631455263 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 9 1631455263 0 localhost 0
+28 8 2_looking_for_ticket_1 9  0 0
+28 2 2_looking_for_ticket_1 9 1631455263 0 p 0 0
+28 4 1_login_1 14 1631455268 0 1_login_1 localhost 0 1
+28 0 1_login_1 14 1631455268 0 localhost 0
+28 8 1_login_1 14  0 0
+28 2 1_login_1 14 1631455268 0 p 0 0
+28 4 4_delete_ticket_1 5 1631455273 0 4_delete_ticket_1 localhost 0 1
+28 0 4_delete_ticket_1 5 1631455273 0 localhost 0
+28 8 4_delete_ticket_1 5  0 0
+28 2 4_delete_ticket_1 5 1631455273 0 p 0 0
+28 4 5_sign_up_1 10 1631455278 0 5_sign_up_1 localhost 0 1
+28 0 5_sign_up_1 10 1631455278 0 localhost 0
+28 8 5_sign_up_1 10  0 0
+28 2 5_sign_up_1 10 1631455278 0 p 0 0
+28 4 3_buying_ticket_1 10 1631455283 0 3_buying_ticket_1 localhost 0 1
+28 0 3_buying_ticket_1 10 1631455283 0 localhost 0
+28 8 3_buying_ticket_1 10  0 0
+28 2 3_buying_ticket_1 10 1631455283 0 p 0 0
+28 4 2_looking_for_ticket_1 10 1631455288 0 2_looking_for_ticket_1 localhost 0 1
+28 0 2_looking_for_ticket_1 10 1631455288 0 localhost 0
+28 8 2_looking_for_ticket_1 10  0 0
+28 2 2_looking_for_ticket_1 10 1631455288 0 p 0 0
+28 4 1_login_1 15 1631455293 0 1_login_1 localhost 0 1
+28 0 1_login_1 15 1631455293 0 localhost 0
+28 8 1_login_1 15  0 0
+28 2 1_login_1 15 1631455293 0 p 0 0
+28 1 3_buying_ticket_1 2 1631456629 0 2
+28 1 4_delete_ticket_1 2 1631456631 0 2
+28 1 5_sign_up_1 1 1631456645 0 2
+28 1 3_buying_ticket_1 1 1631456651 0 2
+28 1 2_looking_for_ticket_1 6 1631456653 0 2
+28 1 3_buying_ticket_1 8 1631456655 0 2
+28 1 5_sign_up_1 9 1631456659 0 2
+28 1 5_sign_up_1 3 1631456659 0 2
+28 1 5_sign_up_1 2 1631456660 0 2
+28 1 4_delete_ticket_1 5 1631456660 0 2
+28 1 1_login_1 4 1631456663 0 2
+28 1 2_looking_for_ticket_1 9 1631456664 0 2
+28 1 3_buying_ticket_1 5 1631456665 0 2
+28 1 3_buying_ticket_1 4 1631456665 0 2
+28 1 4_delete_ticket_1 1 1631456666 0 2
+28 1 5_sign_up_1 8 1631456666 0 2
+28 1 3_buying_ticket_1 3 1631456668 0 2
+28 1 3_buying_ticket_1 9 1631456670 0 2
+28 1 2_looking_for_ticket_1 1 1631456672 0 2
+28 1 2_looking_for_ticket_1 10 1631456673 0 2
+28 1 3_buying_ticket_1 6 1631456673 0 2
+28 1 2_looking_for_ticket_1 8 1631456675 0 2
+28 1 5_sign_up_1 10 1631456675 0 2
+28 1 3_buying_ticket_1 10 1631456677 0 2
+28 1 5_sign_up_1 5 1631456677 0 2
+28 1 4_delete_ticket_1 4 1631456678 0 2
+28 1 5_sign_up_1 4 1631456679 0 2
+28 1 4_delete_ticket_1 3 1631456679 0 2
+28 1 3_buying_ticket_1 7 1631456680 0 2
+28 1 1_login_1 5 1631456680 0 2
+28 1 2_looking_for_ticket_1 3 1631456682 0 2
+28 1 2_looking_for_ticket_1 2 1631456686 0 2
+28 1 2_looking_for_ticket_1 4 1631456686 0 2
+28 1 2_looking_for_ticket_1 5 1631456690 0 2
+28 1 1_login_1 10 1631456691 0 2
+28 1 5_sign_up_1 6 1631456691 0 2
+28 1 5_sign_up_1 7 1631456691 0 2
+28 1 2_looking_for_ticket_1 7 1631456693 0 2
+28 1 1_login_1 6 1631456703 0 2
+28 1 1_login_1 11 1631456705 0 2
+28 1 1_login_1 1 1631456723 0 2
+28 1 1_login_1 12 1631456724 0 2
+28 1 1_login_1 2 1631456743 0 2
+28 1 1_login_1 7 1631456750 0 2
+28 1 1_login_1 3 1631456761 0 2
+28 1 1_login_1 8 1631456767 0 2
+28 1 1_login_1 13 1631456778 0 2
+28 1 1_login_1 9 1631456792 0 2
+28 1 1_login_1 14 1631456798 0 2
+28 1 1_login_1 15 1631456824 0 2
+28 12 1631456824 1 1631456824 0 1631456824

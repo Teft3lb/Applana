@@ -1,0 +1,40 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=D:\Новая папка\Applana\Scenaries\Debugging test.lrs
+Subject=Scenario1
+Result_file=d:\новая папка\resultats\debugging test\debugging test.lrr
+Description=
+ResultName=Debugging test
+Time_Zone=-10800
+Start_time=1631445248
+Daylight_Bias=0
+Stop_time=1631446640
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By command
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:02 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+1_login_1_1_1=D:\Новая папка\Applana\Scripts\1_Login\01_Login.usr
+2_looking_for_ticket_1=D:\Новая папка\Applana\Scripts\2_Looking_For_Ticket\2_Looking_For_Ticket.usr
+3_buying_ticket_1=D:\Новая папка\Applana\Scripts\3_Buying_ticket\3_Buying_ticket.usr
+5_sign_up_1=D:\Новая папка\Applana\Scripts\5_Sign_Up\5_Sign_Up.usr
+4_delete_ticket_1=D:\Новая папка\Applana\Scripts\4_Delete_Ticket\4_Delete_Ticket.usr
+[Scripts_types]
+1_login_1_1_1=Multi+QTWeb
+2_looking_for_ticket_1=Multi+QTWeb
+3_buying_ticket_1=Multi+QTWeb
+5_sign_up_1=Multi+QTWeb
+4_delete_ticket_1=Multi+QTWeb

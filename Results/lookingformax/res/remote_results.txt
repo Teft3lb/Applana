@@ -1,0 +1,2 @@
+[Hosts]
+localhost=d:\новая папка\applana\results\lookingformax\res\localhost_6.eve

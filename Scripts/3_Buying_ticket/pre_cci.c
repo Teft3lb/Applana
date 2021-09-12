@@ -2814,18 +2814,18 @@ ChooseTicketForDelete()
 	web_add_header("Origin", 
 		"http://localhost.com:1080");
 
+		web_reg_find("Fail=Found",
+		"Text={flightID}",
+		"LAST");
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t37.inf", 
 		"ITEMDATA", 
-		"Name=2", "Value=on", "ENDITEM",
+		"Name=1", "Value=on", "ENDITEM",
 		"Name=removeFlights.x", "Value=52","ENDITEM",
 		"Name=removeFlights.y", "Value=9","ENDITEM",
 		"LAST");
 
-	web_reg_find("Fail=Found",
-		"Text={flightID}",
-		"LAST");
 
 	lr_end_transaction("ChooseTicketForDelete",2);
 }
@@ -2964,8 +2964,8 @@ FindFlight_rnd()
 		"Name=arrive", "Value={arrive}", "ENDITEM", 
 		"Name=returnDate", "Value={Date2}", "ENDITEM", 
 		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=seatPref", "Value=None", "ENDITEM", 
-		"Name=seatType", "Value=Coach", "ENDITEM", 
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=findFlights.x", "Value=42", "ENDITEM", 
 		"Name=findFlights.y", "Value=3", "ENDITEM", 
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
@@ -3006,8 +3006,8 @@ ChooseTicket()
 		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
 		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=seatType", "Value=Coach", "ENDITEM",
-		"Name=seatPref", "Value=Window", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=reserveFlights.x", "Value=30", "ENDITEM",
 		"Name=reserveFlights.y", "Value=11", "ENDITEM",
 		"LAST");
@@ -3041,8 +3041,8 @@ ChooseTicket_rnd()
 		"Name=outboundFlight", "Value={outboundFlight_rnd}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
 		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=seatType", "Value=Coach", "ENDITEM",
-		"Name=seatPref", "Value=Window", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=reserveFlights.x", "Value=30", "ENDITEM",
 		"Name=reserveFlights.y", "Value=11", "ENDITEM",
 		"LAST");
@@ -3158,30 +3158,30 @@ lr_start_transaction("UC_03_Buy_ticket");
 
 	MainPage();
 
-		lr_think_time(3);
+		lr_think_time(3.33);
 
 	Login();
 	
-		lr_think_time(3);	
+		lr_think_time(3.33);	
 
 	Flights();
 
-		lr_think_time(3);	
+		lr_think_time(3.33);	
 
 	FindFlight_rnd();	
 	
-		lr_think_time(3);
+		lr_think_time(3.33);
 	
 	ChooseTicket_rnd();
 	
-		lr_think_time(3);
+		lr_think_time(3.33);
 		
 	PaymentDetails();
 	
-		lr_think_time(5);
+		lr_think_time(3.33);
 	
 		
-	SignOff();
+	 
 
 lr_end_transaction("UC_03_Buy_ticket",2);
 	return 0;

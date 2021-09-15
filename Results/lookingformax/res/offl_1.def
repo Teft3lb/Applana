@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Page Reads/sec (Memory)
+GraphTitle=Committed Bytes (Memory)
 DataPointLabel_1=offline_datapoint_1
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Page Reads/sec (Memory)
+YAxisTitle=Committed Bytes (Memory)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=Page Reads/sec is the rate at which the disk was read to resolve hard page faults. It shows the number of reads operations, without regard to the number of pages retrieved in each operation. Hard page faults occur when a process references a page in virtual memory that is not in working set or elsewhere in physical memory, and must be retrieved from disk. This counter is a primary indicator of the kinds of faults that cause system-wide delays. It includes read operations to satisfy faults in the file system cache (usually requested by applications) and in non-cached mapped memory files. Compare the value of Memory\Pages Reads/sec to the value of Memory\Pages Input/sec to determine the average number of pages read during each operation.
+DataPointDescr_1=Committed Bytes is the amount of committed virtual memory, in bytes. Committed memory is the physical memory which has space reserved on the disk paging file(s). There can be one or more paging files on each physical drive. This counter displays the last observed value only; it is not an average.

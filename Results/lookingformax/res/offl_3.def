@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Committed Bytes (Memory)
+GraphTitle=Threads (Objects)
 DataPointLabel_1=offline_datapoint_3
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Committed Bytes (Memory)
+YAxisTitle=Threads (Objects)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=Committed Bytes is the amount of committed virtual memory, in bytes. Committed memory is the physical memory which has space reserved on the disk paging file(s). There can be one or more paging files on each physical drive. This counter displays the last observed value only; it is not an average.
+DataPointDescr_1=Threads is the number of threads in the computer at the time of data collection.  Notice that this is an instantaneous count, not an average over the time interval.  A thread is the basic executable entity that can execute instructions in a processor.

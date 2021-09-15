@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=File Data Operations/sec (System)
+GraphTitle=% использования выделенной памяти (Память)
 DataPointLabel_1=offline_datapoint_16
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=File Data Operations/sec (System)
+YAxisTitle=% использования выделенной памяти (Память)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=File Data Operations per second is the rate that the computer is issuing Read and Write operations to file system devices.  It does not include File Control Operations.
+DataPointDescr_1=Процент использования выделенной памяти - это процентное отношение объема выделенной памяти (Committed Bytes) к пределу выделенной памяти (Commit Limit). Эта величина отражает реально используемый объем доступной виртуальной памяти. Учтите, что предел выделенной памяти может быть изменен, если файл подкачки (страничный файл) будет увеличен. Эта величина представляет собой конкретное текущее значение, и не является средним значением по некоторому интервалу времени.

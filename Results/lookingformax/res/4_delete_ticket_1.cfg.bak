@@ -102,7 +102,7 @@ MsgClassFull="0"
 AutoLog=1
 [General]
 XlBridgeTimeout="120"
-DefaultRunLogic=uspHcD.963
+DefaultRunLogic=usp5HP.715
 Encoding="ANSI"
 AutomaticTransactions="1"
 automatic_nested_transactions="1"

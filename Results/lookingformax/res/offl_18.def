@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Processor Queue Length (System)
+GraphTitle=Pages/sec (Memory)
 DataPointLabel_1=offline_datapoint_18
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Processor Queue Length (System)
+YAxisTitle=Pages/sec (Memory)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=Processor Queue Length is the instantaneous length of the processor queue in units of threads.  This counter is always 0 unless you are also monitoring a thread counter.  All processors use a single queue in which threads wait for processor cycles.  This length does not include the threads that are currently executing.  A sustained processor queue length greater than two generally indicates processor congestion.  This is an instantaneous count, not an average over the time interval.
+DataPointDescr_1=Pages/sec is the number of pages read from the disk or written to the disk to resolve memory references to pages that were not in memory at the time of the reference.  This is the sum of Pages Input/sec and Pages Output/sec.  This counter includes paging traffic on behalf of the system Cache to access file data for applications.  This value also includes the pages to/from non-cached mapped memory files.  This is the primary counter to observe if you are concerned about excessive memory pressure (that is, thrashing), and the excessive paging that may result.

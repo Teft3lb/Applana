@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Pages/sec (Memory)
+GraphTitle=Private Bytes (Process _Total)
 DataPointLabel_1=offline_datapoint_19
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Pages/sec (Memory)
+YAxisTitle=Private Bytes (Process _Total)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=Pages/sec is the number of pages read from the disk or written to the disk to resolve memory references to pages that were not in memory at the time of the reference.  This is the sum of Pages Input/sec and Pages Output/sec.  This counter includes paging traffic on behalf of the system Cache to access file data for applications.  This value also includes the pages to/from non-cached mapped memory files.  This is the primary counter to observe if you are concerned about excessive memory pressure (that is, thrashing), and the excessive paging that may result.
+DataPointDescr_1=Private Bytes is the current number of bytes this process has allocated that cannot be shared with other processes.

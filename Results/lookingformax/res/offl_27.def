@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Pool Paged Failures (Server)
+GraphTitle=% Disk Time (PhysicalDisk _Total)
 DataPointLabel_1=offline_datapoint_27
 LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Pool Paged Failures (Server)
+YAxisTitle=% Disk Time (PhysicalDisk _Total)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=The number of times allocations from paged pool have failed.  Indicates that the computer's physical memory or paging file are too small.
+DataPointDescr_1=Disk Time is the percentage of elapsed time that the selected disk drive is busy servicing read or write requests.

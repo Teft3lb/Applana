@@ -17,5 +17,5 @@ ScriptCount=5
 ScriptName0=3_buying_ticket_1
 ScriptName1=5_sign_up_1
 ScriptName2=2_looking_for_ticket_1
-ScriptName3=1_login_1
-ScriptName4=4_delete_ticket_1
+ScriptName3=4_delete_ticket_1
+ScriptName4=1_login_1

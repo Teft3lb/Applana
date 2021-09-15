@@ -56,7 +56,7 @@ MsgClassData="0"
 LogDetail="0"
 [General]
 XlBridgeTimeout="120"
-DefaultRunLogic=uspy5c.961
+DefaultRunLogic=usp8NH.711
 Encoding="ANSI"
 AutomaticTransactions="1"
 automatic_nested_transactions="1"

@@ -3,13 +3,13 @@ Product=HPE LoadRunner Controller
 Version=12.55.0.0
 Path=D:\Новая папка\Applana\Scenaries\Looking for max.lrs
 Subject=Looking for max
-Result_file=d:\новая папка\applana\results\lookingformax\res\res.lrr
+Result_file=d:\новая папка\newmax\results\lookingformax\res\res.lrr
 Description=
 ResultName=res
 Time_Zone=-10800
-Start_time=1631449785
+Start_time=1631640671
 Daylight_Bias=0
-Stop_time=1631456824
+Stop_time=1631647647
 
 [Configuration]
 Public_local=1
@@ -29,7 +29,7 @@ SummaryEnded=1
 Scenario Type=Manual Scenario
 Goal Profile Name=Schedule 1
 Mode=Scenario Scheduling
-Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:01 (HH:MM:SS)
+Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
 Load Behavior=Initialize each Vuser just before it runs
 
 [Scripts]
